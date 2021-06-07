@@ -51,7 +51,7 @@ app.use((req,res,next)=>{
 })
 
 app.use(session({
-    name:process.env.COOKIE_NAME,
+    name:"qid",
     secret:process.env.SECRET,
     resave:false,
     saveUninitialized:false,
